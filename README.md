@@ -1,44 +1,24 @@
-mb-bizrule
-==========
-MicroService using springBoot providing MMB update/query interface。
+cx-template-mbs
+===============
+Hi Fellow,
 
-########## environment required
-1. JDK1.8
-2. Redis
-3. Mysql
-4. Maven, dependency jars:
-	 - mb-common-*.jar
-	 - oneaconsumer-*.jar
-	 - eodsconsumer-*.jar
+1. This is a production ready cathay pacific micro-service bootstrap template for spring boot. 
+2. You can find more info about this bootstrap via:
+https://cathaypacific-prod.atlassian.net/wiki/spaces/SPCP/pages/8402260
+3. To run this project in your local machine
+    1. install jdk 1.8, maven
+    2. go to project root and run "mvn spring-boot:run"
+    3. test http://localhost:8080/api/v1.0/hello/man
+    4. open pom.xml, modify default groupId and artifactId to your own pvt name and app name
+    5. open application.properties, change spring.application.name.
 
-########## project construction
-├── src
-	├── main
-		├── java			// main java class
-		├── resources
-			├── config		// application and log configurations
-			├── keystore	// key for calling third-party interface
-	├── test
-		├── java			// JUnit test class
-		├── resources		// XML format data for JUnit test
-├── pom.xml					// maven dependency configuration
-├── README.md				// help
+It is recommended to use intellij rather than eclipse as IDE
 
-########## development environment
-1. add "spring.profiles.active=local" into application.properties.
+Please contact cppypc@cathaypacific.com if you have any inquiry. 
+    
+You can force push if you would like to overwrite this commit.
 
-2. set properties below in application-local.properties:
-spring.datasource.url=jdbc:${HOST}:${PORT}/${DB_name}
-spring.datasource.username=${MYSQL_DB_USERNAME}
-spring.datasource.password=${MYSQL_DB_PW}
-spring.redis.host=${REDIS_HOST}
-spring.redis.port=${REDIS_PORT}
-spring.redis.database=${REDIS_DATABASE:0}
+DevOps Team
 
-3. find Application.java => run as => Java Application.
-
-4. open "http://localhost:8082/swagger-ui.html".
-
-########## test
-project root => run as => "Junit Test".
+IT, Cathay Pacific
 
