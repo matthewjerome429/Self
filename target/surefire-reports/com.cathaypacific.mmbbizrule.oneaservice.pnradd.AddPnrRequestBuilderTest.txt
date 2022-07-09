@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.cathaypacific.mmbbizrule.oneaservice.pnradd.AddPnrRequestBuilderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE! - in com.cathaypacific.mmbbizrule.oneaservice.pnradd.AddPnrRequestBuilderTest
+buildRequestTest(com.cathaypacific.mmbbizrule.oneaservice.pnradd.AddPnrRequestBuilderTest)  Time elapsed: 0.035 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<P-USA-123456-USA-01[Jan00-M-31Dec]20-zhang-san> but was:<P-USA-123456-USA-01[一月00-M-31十二月]20-zhang-san>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.cathaypacific.mmbbizrule.oneaservice.pnradd.AddPnrRequestBuilderTest.buildRequestTest(AddPnrRequestBuilderTest.java:289)
+

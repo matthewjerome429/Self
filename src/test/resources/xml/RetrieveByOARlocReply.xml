@@ -1,0 +1,26 @@
+<PNR_RetrieveByOARlocReply xmlns="http://xml.amadeus.com/PAOARR_11_1_1A">
+	<pnrList>
+		<pnrNumber>
+			<itemNumberDetails>
+				<number>1</number>
+			</itemNumberDetails>
+		</pnrNumber>
+		<externalReservation>
+			<reservation>
+				<companyId>1G</companyId>
+				<controlNumber>6RCLXK</controlNumber>
+			</reservation>
+		</externalReservation>
+		<amadeusReservation>
+			<reservation>
+				<companyId>1A</companyId>
+				<controlNumber>JU6AKW</controlNumber>
+			</reservation>
+		</amadeusReservation>
+		<pnrDetails>
+			<attributeDetails>
+				<attributeType>OAP</attributeType>
+			</attributeDetails>
+		</pnrDetails>
+	</pnrList>
+</PNR_RetrieveByOARlocReply>

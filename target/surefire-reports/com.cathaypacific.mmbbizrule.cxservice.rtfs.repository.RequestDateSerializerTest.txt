@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cathaypacific.mmbbizrule.cxservice.rtfs.repository.RequestDateSerializerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.cathaypacific.mmbbizrule.cxservice.rtfs.repository.RequestDateSerializerTest
